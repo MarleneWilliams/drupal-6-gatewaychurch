@@ -1,0 +1,1817 @@
+/* $Id: fusion-starter-style.css,v 1.1.2.7 2010/07/04 01:51:31 sociotech Exp $ */
+
+/* Basic Typography & Colors
+-------------------------------------------------------------- */
+/* Add general site styling here for typography and background */
+body {   /* also set in fusion_starter.info: settings[base-font-size] = font-size-12 */
+  color: #0a0301;
+  font: 75% Verdana, "Lucida Grande", Lucida, sans-serif;
+}
+
+/* Default link styles - separate a:visited for a different visited link style */
+a,
+a:link,
+a:visited {
+  color: #2f3b09;
+  font-weight: bold;
+}
+
+/* Hover/active link styles. Don't forget :focus for accessibility */
+a:hover,
+a:focus,
+a:active {
+  color: #202903;
+}
+
+
+/* Specific Typography
+-------------------------------------------------------------- */
+#site-name {
+  font-size: 300%;
+  line-height: 150%;
+}
+
+.footer-message {
+  font-size: 90%;
+}
+
+
+/* HTML Elements
+-------------------------------------------------------------- */
+body {
+}
+
+
+/* Reusable Styles
+-------------------------------------------------------------- */
+
+.hidden {
+  display: none;
+}
+
+#cboxContent .hidden {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+/* Site Info
+-------------------------------------------------------------- */
+/* Wrapper around logo, site name, and slogan */
+.header-site-info span {
+  display: block;
+}
+
+.header-site-info {
+  margin: 5px 0 0 102px;
+}
+
+/* Add float here to put logo and site name side by side, also add margins as
+  needed */
+#logo {
+}
+
+/* Link and hover styles for site name */
+#site-name a:link,
+#site-name a:visited,
+#site-name a:hover,
+#site-name a:active {
+}
+
+/* Typography for site slogan */
+#slogan {
+}
+
+
+/* Regions
+
+  Classes (.region-name) should always be used instead of IDs (#region-name) so
+  that Skinr styles can override them with a class later
+-------------------------------------------------------------- */
+
+/* All Regions
+-------------------------------------------------------------- */
+
+body {
+  background: #4d3418 url(../images/bg-body-1.jpg);
+}
+
+/* By default this wrapper is set to 100% width and centered -- override here to
+  narrow wrapper or align left or right */
+.page {
+  background: transparent url(../images/bg-page-1.jpg) repeat-x;
+}
+
+/* The 0 values here remove padding and spacing at the bottom of the page.
+  Remove to add a gap at the very bottom of the page */
+.page-inner {
+  border: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background: transparent url(../images/bg-pageinner-1c.jpg) no-repeat top center;
+}
+
+
+/* Header Regions
+-------------------------------------------------------------- */
+/* Header Top region to the bottom of Header region */
+/* For full-width header background, add background image/color here */
+.header-group-wrapper {
+  height: 180px;
+}
+
+.header-group.grid16-16 {
+  width: 1000px;
+}
+
+/* Header Top region which sits above the header */
+/* Works well with inline login or inline menu block style */
+.header-top-wrapper {
+}
+
+.header-top {
+}
+
+
+/* Primary Menu
+/-------------------------------------------------------------- */
+/* Add general styles for primary menu here, such as typography, borders, floats,
+  or spacing above/below */
+.primary-menu {
+  width: 700px;
+  padding: 0 0 8px 0;
+  float: right;
+  font-size: 15px;
+}
+
+.primary-menu-inner {
+  margin: 0 !important;
+}
+
+/* styles for Superfish primary menu */
+.primary-menu-inner ul.sf-menu {
+  float: right;
+  text-transform: uppercase;
+}
+
+/* Link style for top level menu items, add padding here */
+.primary-menu-inner ul.sf-menu a,
+.primary-menu-inner ul.sf-menu a:visited  {
+  color: #fffad7;
+  font-weight: normal;
+}
+
+.primary-menu-inner ul.sf-menu a:hover,
+.primary-menu-inner ul.sf-menu a:active,
+.primary-menu-inner ul.sf-menu a:focus {
+  color: #f2e1b3;
+}
+
+/* These are the top level menu items, add border-right here for separators */
+.primary-menu-inner ul.sf-menu li {
+}
+
+/* Add border-right: 0; here to remove separator on last menu item */
+.primary-menu-inner ul.sf-menu li.last {
+}
+.primary-menu-inner ul.sf-menu li.last a {
+  padding-right: 5px;
+}
+
+/* Style for container of dropdown, add background or border */
+.primary-menu-inner ul.sf-menu ul {
+  background-color: #320e06;
+  border: 1px solid #140400;
+  border-top: none;
+  -moz-box-shadow: 1px 2px 4px #4a331a; /* Firefox */
+  -webkit-box-shadow: 1px 2px 4px #4a331a; /* Safari, Chrome */
+  box-shadow: 1px 2px 4px #4a331a; /* CSS3 */
+  margin: 4px 0 0 0;
+}
+
+/* Style for individual dropdown menu items, add border-bottom for separators */
+.primary-menu-inner ul.sf-menu li li {
+  border-bottom: #140400;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.primary-menu-inner ul.sf-menu li li.last {
+
+}
+
+.primary-menu-inner ul.sf-menu li li li {
+}
+
+/* Style for hover of dropdown menu items (add background-color here) */
+.primary-menu-inner ul.sf-menu li ul li:hover,
+.primary-menu-inner ul.sf-menu li ul li.sfHover {
+  background: #2d0b05;
+}
+
+
+/* Secondary menu
+-------------------------------------------------------------- */
+/* This menu usually appears in the header as a set of simple text links */
+.secondary-menu {
+}
+
+/* Set general style for menu here -- background, alignment, etc. */
+.secondary-menu-inner ul.links {
+}
+
+/* Add a border-right here for a separator */
+.secondary-menu-inner ul.links li {
+}
+
+/* Add border-right: 0; here to remove right separator on last menu item */
+.secondary-menu-inner ul.links li.last {
+}
+
+/* Styles for links */
+.secondary-menu-inner ul.links li a:link,
+.secondary-menu-inner ul.links li a:visited {
+  padding: 3px;
+}
+
+.secondary-menu-inner ul.links li a:hover,
+.secondary-menu-inner ul.links li a:focus,
+.secondary-menu-inner ul.links li a.active {
+}
+
+
+/* Header - Search
+-------------------------------------------------------------- */
+.search-box {
+}
+
+.search-box-inner {
+}
+
+.search-box-inner form#search-theme-form {
+}
+
+.search-box-inner input#edit-search-theme-form-header {
+}
+
+
+/*  Preface Regions
+-------------------------------------------------------------- */
+/* The Preface Top region sits between the header and the Main Area
+ (columns, sidebars, and main content).  The Preface Bottom region
+ is inside the Main Area. */
+.preface-top-wrapper {
+}
+
+.preface-top {
+  -moz-box-shadow: 1px 2px 5px #3f280f; /* Firefox */
+  -webkit-box-shadow: 1px 2px 5px #3f280f; /* Safari, Chrome */
+  box-shadow: 1px 2px 5px #3f280f; /* CSS3 */
+  margin: 0 auto 30px auto;
+}
+
+#preface-top {
+  width: 1000px;
+}
+
+.preface-top-inner {
+  background: #f0e3c3;
+  padding: 10px 10px 0 10px;
+  border: 1px solid #fbf2db;
+}
+
+.preface-top #block-menu-menu-quicklinks {
+  margin: 0;
+  width: 975px;
+}
+
+.preface-top #block-menu-menu-quicklinks ul {
+  margin: 0;
+}
+
+.preface-top #block-menu-menu-quicklinks ul li {
+  list-style: none;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 0 0 10px 0;
+}
+
+.preface-top #block-menu-menu-quicklinks ul li a, .preface-top #block-menu-menu-quicklinks ul li a:link, .preface-top #block-menu-menu-quicklinks ul li a:visited {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  background: #fff9ea;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.preface-top #block-menu-menu-quicklinks ul li a:hover, .preface-top #block-menu-menu-quicklinks ul li a:active, .preface-top #block-menu-menu-quicklinks ul li a:focus {
+  border: 1px solid #d5b577;
+  background: #e0c48d;
+  text-decoration: none;
+}
+
+.preface-bottom {
+}
+
+.preface-bottom-inner {
+}
+
+
+/*  Main Area (content + sidebars + preface bottom + postscript top)
+-------------------------------------------------------------- */
+.main-wrapper {
+  background: transparent url(../images/bg-mainwrapper-1.jpg) no-repeat bottom center;
+  height:auto !important;
+  height:500px;
+  min-height:500px;
+}
+
+div#main.main.grid16-16 {
+  width: 1000px;
+}
+
+div#main-group.main-group.grid16-16 {
+  width: 1000px;
+}
+
+.main-group-inner {
+}
+
+.no-sidebars div#content-group {
+  width: 1000px;
+}
+
+.no-sidebars .content-group-inner {
+  padding: 0;
+}
+
+.no-sidebars #content-inner-inner {
+  margin: 0;
+}
+
+
+/* Sidebar Regions
+-------------------------------------------------------------- */
+/* Sidebar widths can be controlled through theme settings */
+.sidebar-first {
+}
+
+div#sidebar-last.sidebar-last.grid16-3 {
+  width: 247px;
+}
+
+.sidebar-last {
+  -moz-box-shadow: 1px 2px 5px #3f280f; /* Firefox */
+  -webkit-box-shadow: 1px 2px 5px #3f280f; /* Safari, Chrome */
+  box-shadow: 1px 2px 5px #3f280f; /* CSS3 */
+}
+
+.sidebar-last-inner {
+  background: #fff9ea;
+  padding: 0px;
+  border: 1px solid #fff;
+}
+
+.sidebar-last .block {
+  width: auto;
+  padding: 10px;
+}
+
+.sidebar-last .block .menu li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.sidebar-last .block .menu li.active {
+  background: transparent url(../images/ul-active-1.jpg) no-repeat 0 50%;
+  margin: 0 0 0 -30px;
+  padding: 0 0 0 30px;
+}
+
+.sidebar-last .block h2 {
+  padding: 15px 0 10px 0;
+  margin: 0 0 15px -15px;
+  width: 235px;
+  background: transparent url(../images/sidebar-h2-1.jpg) no-repeat;
+  color: #fff9ea;
+  text-align: center;
+  font: 22px Georgia, "Times New Roman", Times, serif !important;
+  font-weight: normal !important;
+}
+
+
+/* Content Regions
+-------------------------------------------------------------- */
+div#content-group.content-group.grid16-13 {
+  width: 728px;
+  margin: 0 20px 5px 2px;
+}
+
+.content-group {
+  -moz-box-shadow: 1px 2px 5px #3f280f; /* Firefox */
+  -webkit-box-shadow: 1px 2px 5px #3f280f; /* Safari, Chrome */
+  box-shadow: 1px 2px 5px #3f280f; /* CSS3 */
+  
+}
+
+.not-front .main-content .content-group-inner {
+  padding: 25px;
+  border: 1px solid #fff;
+  background: #fff9ea;
+}
+
+.content-top {
+}
+
+.content {
+}
+
+.content-inner {
+}
+
+
+.content-bottom {
+}
+
+/* This region only appears on full node pages. It's useful for ads or other
+  content between the body of the node and its comments */
+.node-bottom {
+}
+
+/*  Postscript & Footer Regions
+-------------------------------------------------------------- */
+.footer-area {
+  background: #200501 url(../images/bg-footerarea-1.jpg) repeat-x top center;
+  color: #fff9ea;
+  
+}
+
+.footer-area-inner {
+  background: transparent url(../images/bg-footerareainner-1.jpg) no-repeat top center;
+  padding: 30px 0 0 0;
+}
+
+
+/* Footer blocks */
+
+#footer .block {
+  width: 320px;
+}
+
+#block-user-0 h2.title,
+#block-user-0 .item-list {
+  display: none;
+}
+
+
+.postscript-top {
+}
+
+.postscript-top-inner {
+}
+
+.postscript-bottom-wrapper {
+}
+
+.postscript-bottom {
+}
+
+.postscript-bottom a,
+.postscript-bottom a:visited  {
+  color: #fdf0bd;
+}
+
+.postscript-bottom a.active,
+.postscript-bottom a:hover,
+.postscript-bottom a:active,
+.postscript-bottom a:focus {
+  color: #f6de9d;
+}
+
+.postscript-bottom-inner {
+}
+
+.footer-wrapper {
+}
+
+.footer {
+}
+
+.footer a,
+.footer a:visited  {
+  color: #fdf0bd;
+}
+
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+  color: #f6de9d;
+}
+
+div#footer.footer.grid16-16 {
+  width: 996px;
+}
+
+.footer-inner {
+}
+
+.footer-message-wrapper {
+}
+
+.footer-message.grid16-16 {
+  width: 996px;
+}
+
+.footer-message-inner {
+}
+
+.footer-message-text {
+}
+
+.footer-message-text-inner {
+}
+
+
+/* Page titles
+/-------------------------------------------------------------- */
+/* Page and full node titles */
+h1.title {
+  font: 30px Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* Default node styles
+/-------------------------------------------------------------- */
+/* Change unpublished and preview colors for dark background themes */
+.node-unpublished {
+  background-color: #fff4f4;
+}
+.preview .node {
+  background-color: #ffffea;
+}
+
+/* Typography for node titles */
+h2, h2.title {
+  font: 30px Georgia, "Times New Roman", Times, serif;
+}
+
+/* Colors and styles for linked node titles, ie. teaser listing at /node */
+h2.title a:link,
+h2.title a:visited {
+}
+
+h2.title a:hover,
+h2.title a:focus,
+h2.title a:active {
+}
+
+/* Separators and padding for node teasers */
+.teaser {
+}
+
+/* Author/date info */
+.meta {
+  margin: 0 0 15px 0;
+}
+
+.submitted {
+  font-style: italic;
+}
+
+/* Links for nodes (taxonomy, commenting, read more, etc) */
+.node .links {
+  margin: 15px 0 0 0;
+}
+.node .terms {
+  display: none;
+}
+.node ul.links li {
+}
+.node ul.links a {
+}
+
+/* Only more/read more links */
+div.node .read-more a,
+div.node .more-link a {
+}
+
+/* Drupal Messages
+/-------------------------------------------------------------- */
+/* General style for all errors/messages (border, padding, etc.) */
+div.content-messages div.messages,
+div.content-help div.help {
+}
+
+/* Status messages: green */
+div.content-messages-inner div.status {
+}
+
+/* Warning messages: yellow */
+div.content-messages-inner div.warning {
+}
+
+/* Error messages: red */
+div.content-messages-inner div.error {
+}
+
+/* Help messages: blue */
+div.content-help-inner div.help {
+}
+
+/* Error that appears when a required form field is not filled out */
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #aa1144;
+}
+
+/* "New" text and required form field asterisk (default = red) */
+.marker,
+.form-required {
+  color: #aa1144;
+}
+
+
+/* Default block title styles
+/-------------------------------------------------------------- */
+h2.block-title {
+}
+
+
+/* Breadcrumbs
+-------------------------------------------------------------- */
+.breadcrumbs {
+  
+}
+
+.breadcrumbs-inner {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+}
+
+
+/* Tab Menus
+/-------------------------------------------------------------- */
+#content-tabs {
+  background-color: transparent;
+  float: left; /* LTR */
+  margin: 20px 0;
+  padding: 0;
+}
+
+#content-tabs ul.primary,
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #000;
+  clear: both;
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0 10px;
+}
+
+#content-tabs ul.secondary {
+  border-bottom: 1px solid #555;
+  margin-top: 10px;
+  text-transform: lowercase;
+}
+
+#content-tabs ul.primary li,
+#content-tabs ul.secondary li {
+  border-style: none;
+  display: inline;
+  float: left; /* LTR */
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+#content-tabs ul.primary li a:link,
+#content-tabs ul.primary li a:visited,
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  float: left; /* LTR */
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 6px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {
+  color: #555;
+}
+
+#content-tabs ul.primary li a.active:link,
+#content-tabs ul.primary li a.active:visited {
+  border-bottom: 4px solid #000;
+  color: #555;
+  padding-bottom: 2px;
+}
+
+#content-tabs ul.secondary li a.active:link,
+#content-tabs ul.secondary li a.active:visited {
+  border-bottom: 4px solid #555;
+  color: #777;
+  padding-bottom: 2px;
+}
+
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.primary li a:focus,
+#content-tabs ul.secondary li a:hover,
+#content-tabs ul.secondary li a:focus {
+  border-bottom: 4px solid #777;
+  color: #777;
+  padding-bottom: 2px;
+}
+
+/* Pagers
+-------------------------------------------------------------- */
+ul.pager {
+}
+
+ul.pager li {
+}
+
+ul.pager a,
+ul.pager li.pager-current {
+  border-color: #333;
+}
+
+ul.pager li.pager-current {
+  background-color: #777;
+  color: #fff;
+}
+
+ul.pager a:hover,
+ul.pager a:active,
+ul.pager a:focus {
+  background-color: #777;
+  border-color: #333;
+  color: #fff;
+}
+
+/* Forms
+/-------------------------------------------------------------- */
+/* Typography and backgrounds for all form buttons */
+form input.form-submit {
+  margin: 15px 2px 5px 2px;
+  padding: 3px 5px;
+}
+
+/* Hover style for form buttons */
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {
+}
+
+/* Typography, background, borders, padding for form fields */
+.form-item input,
+.form-item select,
+.form-item textarea {
+}
+
+/* Remove backgrounds and border on radios and checkboxes */
+.form-item .form-radio,
+.form-item .form-checkbox {
+  background: none;
+  border: none !important;
+}
+
+/* Fieldset wrapper around groups of form elements -- add border here */
+fieldset {
+}
+
+/* Typography and spacing for legend of fieldsets */
+fieldset legend {
+}
+
+/* Link style for legend of fieldsets */
+fieldset legend,
+legend.collapse-processed,
+legend.collapse-processed a:link,
+legend.collapse-processed a:visited {
+}
+
+/* Custom icons on (open) collapsible fieldsets */
+html.js fieldset.collapsible legend a:link,
+html.js fieldset.collapsible legend a:visited {
+}
+
+/* Custom icons on (closed) collapsible fieldsets */
+html.js fieldset.collapsed legend a:link,
+html.js fieldset.collapsed legend a:visited {
+}
+
+
+/* Tables
+-------------------------------------------------------------- */
+table {
+}
+
+/* Body of tables */
+tbody {
+  border-top: 1px solid #ccc;
+}
+
+/* Header of tables */
+thead th,
+th {
+  border-bottom: 3px solid #ccc;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background styles */
+tr.even,
+tr.even td {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.odd,
+tr.odd td {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+td.active {
+}
+
+tr.drag td,
+tr.drag-previous td {
+  color: #000;
+}
+
+
+/* Maintenance Page
+/-------------------------------------------------------------- */
+/* Maintenance page tpl file in Fusion Core has simplified layout, but you can
+  also add specific styles, such as a background, just for your offline page */
+.in-maintenance  {
+}
+
+
+/*--------------------------------------------------------------*/
+/* Module styles
+/-------------------------------------------------------------- */
+
+
+/* Book
+/-------------------------------------------------------------- */
+.book-navigation .menu {
+  border-top: 1px solid #ccc;
+}
+
+.book-navigation .page-links {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Comments
+/-------------------------------------------------------------- */
+/* Style for each individual comment */
+div.comment {
+}
+
+/* Subject (title) of each comment */
+div.comment h3.title {
+}
+
+/* Links (edit, reply, delete) for each comment */
+div.comment div.links a,
+div.comment ul.links a {
+}
+
+/* Alternating styles for even/odd comments */
+.comments div.odd {
+  background-color: #fff;
+}
+
+.comments div.even {
+  background-color: #eee;
+}
+
+/* A special highlight style for a comment by the author of the node */
+.comments div.comment-by-author {
+  background-color: #ddd;
+}
+
+/* Comment signatures */
+.signature {
+  border-top: 1px solid #d6ddb9;
+}
+
+/* User avatars in comments */
+.comment-wrapper .picture img {
+}
+
+
+/* Forum
+/-------------------------------------------------------------- */
+#forum .description {
+}
+
+.forum-topic-navigation {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+
+/* Poll
+/-------------------------------------------------------------- */
+div.poll div.bar {
+  background-color: #ddd;
+}
+
+div.poll div.bar div.foreground {
+  background-color: #999;
+}
+
+
+/* Profiles
+/-------------------------------------------------------------- */
+.profile .picture {
+  float: none;
+}
+
+/* Styles for sub-headings on user profiles */
+.profile dt {
+  background-color: #ccc;
+}
+
+
+/* Ubercart - catalog
+/-------------------------------------------------------------- */
+
+/* Horizontal list of subcategories in catalog */
+ul.uc-categories {
+}
+
+.uc-categories li a {
+  font-weight: bold;
+  padding: 0 5px 0 3px;
+}
+
+/* Product and category names */
+.catalog-grid-title a:link,
+.catalog-grid-title a:visited,
+.category a:link,
+.category a:visited {
+}
+
+.catalog-grid-title a:hover,
+.catalog-grid-title a:focus,
+.category a:hover,
+.category a:focus {
+}
+
+/* Sell price in Ubercart catalog */
+.category-grid-products .catalog-grid-sell-price {
+}
+
+/* Ubercart - add to cart buttons
+/-------------------------------------------------------------- */
+
+/* Add to cart buttons */
+input.node-add-to-cart,
+input.list-add-to-cart {
+}
+
+/* Hover and focus styles, with .hover class added for IE6 support */
+input.node-add-to-cart:hover,
+input.node-add-to-cart.hover,
+input.node-add-to-cart:focus,
+input.list-add-to-cart:hover,
+input.list-add-to-cart.hover,
+input.list-add-to-cart:focus {
+}
+
+/* Ubercart - product nodes
+/-------------------------------------------------------------- */
+
+#field-group {
+}
+
+#price-group {
+}
+
+/* Product images */
+.product-image a img {
+}
+
+.product-image a:hover img,
+.product-image a:focus img {
+}
+
+/* Display price on full product nodes */
+.full-node .product-group .uc-price-display {
+}
+
+/* Product attributes on full nodes */
+.full-node .product-group .attributes {
+}
+
+/* Ubercart - general / checkout
+/-------------------------------------------------------------- */
+
+/* For optional "Powered by Ubercart" footer message */
+#store-footer {
+}
+
+#store-footer a:link,
+#store-footer a:visited {
+}
+
+/* View cart/Checkout links in Ubercart cart block */
+.cart-block-summary-links ul.links li a {
+}
+
+.cart-block-summary-links ul.links li.cart-block-checkout a:link,
+.cart-block-summary-links ul.links li.cart-block-checkout a:visited {
+}
+
+/* Key checkout process buttons: Checkout, Continue, and Submit Order */
+#uc-cart-view-form #edit-checkout,
+#uc-cart-checkout-form #edit-continue,
+#uc-cart-checkout-review-form #edit-submit {
+}
+
+/* Table on final order review page */
+.order-review-table {
+}
+
+#cart-form-products table th {
+  border-bottom: 3px solid #dec2c3;
+}
+
+
+/* Specific Page Styles
+/-------------------------------------------------------------- */
+
+
+/* Home Page */
+
+.front .main {
+  -moz-box-shadow: none; /* Firefox */
+  -webkit-box-shadow: none; /* Safari, Chrome */
+  box-shadow: none; /* CSS3 */
+  margin: -50px auto 0 auto;
+}
+
+.front .panel-flexible {
+}
+
+.front .content-group-inner {
+  background: transparent;
+  border: none;
+}
+
+.front .panels-flexible-row-2-1 {
+  padding: 0;
+}
+
+.front .panels-flexible-row-2-1-inside {
+  margin: 0;
+}
+
+.front .view-nodequeue-2 {
+  width: 540px;
+  height: 364px;
+  background: transparent url(../images/home-slideshow-paper-1.png) no-repeat;
+  float: right;
+  text-align: center;
+}
+
+.front .view-nodequeue-2 .views-row {
+  height: 320px;
+  overflow: visible;
+}
+
+.front .view-nodequeue-2 .views-field-field-image-cck-fid {
+  margin: 35px 0px 0px 0px;
+  height: 334px;
+}
+
+.front .view-nodequeue-2 .views-slideshow-controls-bottom {
+  width: 505px;
+  margin: 10px 0px 0px 0px;
+  overflow: visible;
+}
+
+.front .view-nodequeue-2 .views-field-title, .front .view-nodequeue-2 .views-field-title a {
+  margin: 35px 0px 0px 0px;
+  width: 505px;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'AngelinaRegular';
+  font-style: italic;
+}
+
+.front .panels-flexible-row-2-1-inside .welcome-blurb {
+  background: #fff9ea;
+  border: 1px solid #fff;
+  -moz-box-shadow: 1px 2px 5px #3f280f; /* Firefox */
+  -webkit-box-shadow: 1px 2px 5px #3f280f; /* Safari, Chrome */
+  box-shadow: 1px 2px 5px #3f280f; /* CSS3 */
+  padding: 0;
+  margin: -310px 0px 0px 0px;
+  height: auto !important;
+  height: 430px;
+  min-height: 430px;
+}
+
+.front .panels-flexible-row-2-1-inside .welcome-blurb .inner {
+  padding: 25px;
+  width: 390px;
+}
+
+.front .panels-flexible-row-2-1-inside .welcome-blurb .inner .node .inner{
+  padding: 0;
+}
+
+.front .panels-flexible-row-2-1-inside .welcome-blurb h2.block-title {
+  background: transparent url(../images/home-servicetimes-h2-1.jpg) no-repeat;
+  width: 416px;
+  height: 62px;
+  text-align: center;
+  color: #fffdee;
+  font: normal 28px Georgia, "Times New Roman", Times, serif;
+  padding: 12px 0 0 0;
+  margin: -7px 0 0 -5px;
+  
+}
+
+
+.front .panels-flexible-row-2-main-row {
+  background: transparent url(../images/home-tabs-bg-1.jpg) no-repeat ;
+  height: auto !important;
+  height: 890px;
+  min-height: 890px;
+}
+
+.front .panels-flexible-region-2-middle_left {
+  margin: 115px 0 0 0;
+  width: 338px;
+}
+
+.front .panels-flexible-region-2-middle_left p {
+  margin: 0;
+}
+
+.front .panels-flexible-region-2-middle_left a,.front .panels-flexible-region-2-middle_left a:hover {
+  color: #fffdee;
+  font: 24px Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.front .panels-flexible-region-2-middle_left a span {
+  padding: 50px 0px 0 160px;
+  display: block;
+}
+
+.front .panels-flexible-region-2-middle_left a.lifegroups {
+  height: 158px;
+  display: block;
+  background: transparent url(../images/home-tabs-lg-1.jpg);
+}
+
+.front .panels-flexible-region-2-middle_left a.lifegroups:hover {
+  background: transparent url(../images/home-tabs-lg-1.jpg) 0 100%;
+}
+
+.front .panels-flexible-region-2-middle_left a.youthgroup {
+  height: 144px;
+  display: block;
+  background: transparent url(../images/home-tabs-yg-1b.jpg);
+}
+
+.front .panels-flexible-region-2-middle_left a.youthgroup span {
+  padding: 60px 0px 0 160px;
+}
+
+.front .panels-flexible-region-2-middle_left a.youthgroup:hover {
+  background: transparent url(../images/home-tabs-yg-1b.jpg) 0 100%;
+}
+
+.front .panels-flexible-region-2-middle_left a.childrenministry {
+  height: 152px;
+  display: block;
+  background: transparent url(../images/home-tabs-livewires-1.jpg);
+}
+
+.front .panels-flexible-region-2-middle_left a.childrenministry span {
+  padding: 35px 0px 0 160px;
+}
+
+.front .panels-flexible-region-2-middle_left a.childrenministry:hover {
+  background: transparent url(../images/home-tabs-livewires-1.jpg) 0 100%;
+}
+
+.front .panels-flexible-region-2-middle_left a.gatewayschool {
+  height: 156px;
+  display: block;
+  background: transparent url(../images/home-tabs-school-1.jpg);
+}
+
+.front .panels-flexible-region-2-middle_left a.gatewayschool:hover {
+  background: transparent url(../images/home-tabs-school-1.jpg) 0 100%;
+}
+
+.front .panels-flexible-region-2-middle_left a.pacificcamps {
+  height: 148px;
+  display: block;
+  background: transparent url(../images/home-tabs-pc-1.jpg);
+}
+
+.front .panels-flexible-region-2-middle_left a.pacificcamps:hover {
+  background: transparent url(../images/home-tabs-pc-1.jpg) 0 100%;
+}
+
+.front .panels-flexible-region-2-middle_left a.pacificcamps span {
+  padding-top: 60px;
+}
+
+
+.front .pane-sermon-audio-views {
+  margin: 60px 25px 0 8px;
+  background: #121d00 url(../images/home-sermonaudio-bottom-1.jpg) repeat-x 100% 100%;
+  border: solid 1px #0f2200;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0px 1px 8px #241707;
+  -webkit-box-shadow: 0px 1px 8px #241707;
+  -moz-box-shadow: 0px 1px 8px #241707;
+}
+
+.front .pane-sermon-audio-views .inner {
+  padding: 15px;
+  background: transparent url(../images/home-sermonaudio-top-1.jpg) no-repeat;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+
+.front .pane-sermon-audio-views h2.block-title {
+  color: #fffdee;
+  margin: 0 0 15px 2px;
+}
+
+.front .pane-sermon-audio-views .view-content .views-row {
+  background: #fff9ea;
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+
+.front .pane-sermon-audio-views .views-field-field-sermon-logo-fid {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.front .pane-sermon-audio-views .views-field-field-sermon-logo-fid img {
+  border: 3px solid #000;
+}
+
+.front .pane-sermon-audio-views .views-field-title {
+  margin: 0 0 10px 0;
+}
+
+.front .pane-sermon-audio-views .views-field-title a {
+  color: #0d2b00;
+}
+
+.front .pane-sermon-audio-views .views-field-field-sermon-audo-file-fid {
+  margin: 15px 0 0 0;
+}
+
+.front .pane-sermon-audio-views .views-field-field-sermon-audo-file-fid object{
+  width: 245px;
+}
+
+.front .pane-sermon-audio-views .views-field-tid {
+  font-weight: bold;
+  clear: both;
+  margin: 0 0 5px 0;
+}
+
+.front .pane-sermon-audio-views .views-field-field-sermon-date-value {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.front .pane-sermon-audio-views .more-link {
+  text-align: left;
+  margin: 10px 0 0px 2px;
+}
+
+.front .pane-sermon-audio-views .more-link a {
+  font-size: 16px;
+}
+
+
+.front .panels-flexible-region-2-center {
+  width: 657px;
+  background: #fff9ea url(../images/home-411-header-1.jpg) no-repeat;
+  -moz-box-shadow: 1px 2px 5px #3f280f; /* Firefox */
+  -webkit-box-shadow: 1px 2px 5px #3f280f; /* Safari, Chrome */
+  box-shadow: 1px 2px 5px #3f280f; /* CSS3 */
+  padding: 0;
+  margin: 34px 0 0 -5px;
+  height: auto !important;
+  height: 700px;
+  min-height: 700px;
+}
+
+.front .panels-flexible-region-2-center-inside {
+  padding: 25px;
+  background: transparent url(../images/home-411-footer-1.jpg) no-repeat
+  bottom right;
+  height: auto !important;
+  height: 700px;
+  min-height: 700px;
+}
+
+.front .panels-flexible-region-2-center-inside .pane-archive-panel-pane-1 {
+  height: auto !important;
+  height: 660px;
+  min-height: 660px;
+}
+
+.front .panels-flexible-region-2-center-inside .views-row {
+  margin: 0 0 30px 0;
+}
+
+.front .panels-flexible-region-2-center-inside h2.pane-title {
+  height: 80px;
+  background: transparent url(../images/home-411-h2-1.jpg) no-repeat;
+  text-align: center;
+  color: #fff9ea;
+  font: bold 48px Georgia, "Times New Roman", Times, serif;
+  padding: 12px 0 0 0;
+  margin: -7px 0 0 -5px;
+}
+
+.front .fouroneone-fronttitle p{
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
+.front .panels-flexible-region-2-center-inside .views-field-title a {
+  font: 30px Georgia, "Times New Roman", Times, serif;
+  font-weight: normal !important;
+}
+
+.front .fouroneone-link, .front .fouroneone-link a {
+  text-align: center;
+  color: #4c2800;
+  font: 34px Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+
+
+/* Sermon Audio */
+
+#view-id-sermon_audio_views-page_1 .views-row {
+  margin: 20px 0px 30px 40px;
+}
+
+#view-id-sermon_audio_views-page_1 .views-row-last {
+  margin: 20px 0px 50px 40px;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-title {
+  margin: 0 0 15px 0;
+  font-size: 1.1em;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-field-sermon-logo-fid {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-field-sermon-date-value {
+  font-size: .9em;
+  font-style: italic;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-field-sermon-audo-file-fid {
+  clear: both;
+  margin: 0 0 10px 0;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-field-sermon-audo-file-fid-1 {
+  font-size: .9em;
+}
+
+#view-id-sermon_audio_views-page_1 .views-field-field-sermon-audo-file-fid-1 a {
+  font-weight: normal;
+}
+
+
+/* 411 */
+
+.fouroneone .views-field-field-event-image-fid {
+  float: right;
+  padding: 0 0 15px 15px;
+}
+
+.fouroneone .views-field-field-date-value {
+  font-style: italic;
+  margin: 5px 0 0 0;
+}
+
+.fouroneone .Announcement {
+  display: none;
+}
+
+.fouroneone .views-field-field-date-value label {
+  font-weight: bold;
+}
+
+.fouroneone .views-field-title a {
+  font: 24px Georgia, "Times New Roman", Times, serif;
+  font-weight: normal !important;
+}
+
+.fouroneone .views-row {
+  margin: 0 0 40px 0;
+  clear: both;
+}
+
+.fouroneone .views-row-last {
+  margin: 0;
+}
+
+
+/* Events */
+
+.field-field-event-image {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+.node-type-event form {
+  margin: 40px 0 0 0;
+}
+
+.node-type-announcement form.webform-client-form,
+.node-type-event form.webform-client-form {
+  background: #f2ead7;
+  border: 1px solid #eddbc8;
+  padding: 10px 25px;
+}
+
+.node-type-event form div div {
+  padding: 0px;
+  background: transparent;
+  border: none;
+}
+
+
+/* Calendar */
+
+.calendar-calendar div.date-nav a, .calendar-calendar div.date-nav h3 {
+    color: #320d06;
+    vertical-align: middle;
+}
+
+.calendar-calendar div.date-nav div.date-heading h3 {
+  font: normal 2em Georgia, "Times New Roman", Times, serif;
+}
+
+.calendar-calendar div.date-nav {
+    background-color: #a6b87e;
+    border: 1px solid #96ab6b;
+    color: #320d06;
+    padding: 0.2em;
+}
+
+.calendar-calendar th.days {
+    background-color: #fff8e2;
+    border: 1px solid #e6d4a5;
+    color: #320d06;
+}
+
+.calendar-calendar td {
+    color: #320d06;
+    text-align: right;
+}
+
+.calendar-calendar td.empty {
+    background: none repeat scroll 0 0 #e5d9ba;
+    border-color: #e6d4a5;
+}
+
+.calendar-calendar td .inner div, .calendar-calendar td .inner div a {
+    background: none repeat scroll 0 0 #fff8e2;
+}
+
+.calendar-calendar td .inner div.day a {
+  color: #2f3b09;
+  font-weight: bold;
+}
+
+.calendar-calendar td .inner div.calendar div, .calendar-calendar td .inner div.calendar div a {
+    background: none repeat scroll 0 0 #fffbf1;
+    border: medium none;
+    padding: 0 2px;
+}
+
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
+    background-color: #d2e0b3;
+}
+
+.calendar-calendar div.view-item div.calendar {
+  background: none;
+}
+
+.calendar-calendar div.view-item .date-display-single {
+  margin: 0 0 10px 0;
+}
+
+.calendar-calendar div.view-item .node-title {
+  margin: 10px 0 0px 0;
+  font-size: 1.2em;
+}
+
+.calendar-calendar div.view-item .node-title a {
+  font-weight: bold;
+}
+
+.calendar-calendar .node-changed {
+  display: none;
+}
+
+.calendar-calendar .view-label-node-data-field-date-field-date-value {
+  display: none;
+}
+
+.calendar-calendar .date-display-single, .calendar-calendar .date-display-start, .calendar-calendar .date-display-end {
+  font-weight: normal !important;
+}
+
+div#calpopup {
+  display: block;
+  border: thin solid #e6d4a5;
+  /* This is css3 stuff that will not work in IE<=8.
+   * What is here is a curved border for firefox and webkit
+   * and a drop shadow that will only appear in webkit.
+  **/
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  /* End CSS3 stuff */
+  background-color: #fff;
+}
+
+.calendar-calendar #calpopup #calpopup-body h2.title {
+  font-size: 24px;
+}
+
+
+/* Registrations */
+
+.views-field-view-node .field-content a {
+}
+
+
+/* Mollom */
+
+.mollom-privacy {
+  font-size: .8em;
+  color: #9b9c97;
+  padding: 0 0 10px 0;
+  font-style: italic;
+}
+
+.mollom-privacy a{
+  color: #8e965e;
+  font-weight: normal;
+}
+
+
+/* About Us - Staff */
+
+#about-us-staff .views-row {
+  margin: 0 0 35px 0;
+}
+
+#about-us-staff .views-field-title {
+  font: bold 20px Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+
+#about-us-staff .views-field-field-profile-photo-fid {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+#about-us-staff .views-field-field-profile-photo-fid img {
+  border: 4px solid #1D0803;
+}
+
+#about-us-staff label {
+  font-weight: bold;
+}
+
+#about-us-staff .views-field-field-profile-position-value {
+  margin: 0 0 10px 0;
+}
+
+
+/* Children's Ministry */
+
+.cm-welcome-blurb h3 {
+  margin: -25px 0 30px 0;
+  color: #875d33;
+  font-style: italic;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sunday-school,
+.church-time {
+  padding: 10px;
+  box-shadow:0px 1px 5px #C1B495;
+  -moz-box-shadow:0px 1px 5px #C1B495;
+  -webkit-box-shadow:0px 2px 6px #d0c9b6;
+}
+
+.sunday-school h2 {
+  color: #1d2300;
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.church-time h2 {
+  font-size: 1.8em;
+  color: #300f07;
+  padding-bottom: 10px;
+}
+
+.sunday-school {
+  margin: 10px 5px 10px 3px;
+  background: #ede2c9;
+  border: 1px solid #cfbb91;
+}
+
+.sunday-school h2,
+.sunday-school .cm-class-description {
+  border-bottom: 1px dashed #cfbb91;
+}
+
+.church-time {
+  margin: 10px 0 10px 5px;
+  background: #dce4b6;
+  border: 1px solid #c4cf91;
+}
+
+.church-time h2,
+.church-time .cm-class-description {
+  border-bottom: 1px dashed #c4cf91;
+}
+
+.cm-class-description {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.cm-class-description.last {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+
+/* Children's Ministry Colorbox */
+
+.page-childrens-ministry #colorbox {
+  box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  -webkit-box-shadow: 0px 0px 20px #000;
+  border: 5px solid #4c2800;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.page-childrens-ministry #colorbox h3 {
+  font: bold 1.9em Georgia, "Times New Roman", Times, serif;
+  color: #4c2800;
+}
+
+.page-childrens-ministry #cboxWrapper {
+  background: #fff9ea;
+}
+
+.page-childrens-ministry #cboxContent {
+  background: transparent;
+  font-size: 1em;
+}
+
+
+/*
+ * Global partners
+ */
+
+/* Global Outreach page */
+#block-views-global_partners-block_1 .inner {
+  margin: 0;
+}
+.view-global-partners .views-row {
+  margin: .75em;
+}
+
+/* Global Partner page */
+.field-field-gp-photo {
+  border: 2px solid #200501;
+  float: right;
+  margin: 0 0 1em 2em;
+  padding: .5em;
+}
+.field-field-gp-photo .field-item {
+  margin: 0;
+  padding: 0;
+}
+.field-field-gp-photo img {
+  -webkit-box-shadow: 1px 0px 5px 0px #200501;
+  box-shadow: 1px 0px 5px 0px #200501;
+}
+.view-global-partner-updates {
+  clear: both;
+}
+.view-global-partner-updates .view-title {
+  font: 1.7em Georgia, "Times New Roman", Times, serif;
+  margin: 2em 0 .5em 0;
+}
+.view-global-partner-updates .views-row {
+  margin: 2em 0;
+}
+.view-global-partner-updates .views-field-field-gpu-date-value,
+.view-global-partner-updates .views-field-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.view-global-partner-updates .views-field-body p {
+  margin: .5em 0;
+}
+
+/* Global partner update */
+.field-field-gpu-mainphoto {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+.field-field-gpu-date {
+  font-style: italic;
+  margin: .5em 0 1em 0;
+}
+.field-field-gpu-additionalphotos {
+  margin: 3em 0 0 0;
+}
+.field-field-gpu-additionalphotos .field-item {
+  float: left;
+  height: 200px;
+  margin: 10px 35px 10px 0;
+  text-align: center;
+  width: 200px;
+}
+
+
+/* Skinr
+/-------------------------------------------------------------- */
+
+/* This is a sample Skinr style to get you started. See fusion_starter.info */
+.fusion-example-stylename .inner {
+  /* When setting the background color, also set foreground colors for text and
+    links, even if it's similar to the default body style. Remember, this block
+    style may be used in regions with other foreground colors, thus making text
+    invisible if left unspecified */
+  background-color: #ccc;
+  color: #000;
+  /* All padding and borders should go on the .inner div, so as not to break
+    the widths of the grid */
+  border: 3px solid #000;
+  padding: 10px;
+}

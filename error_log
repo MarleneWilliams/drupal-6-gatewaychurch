@@ -1,0 +1,50 @@
+[30-Dec-2010 15:02:48] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 107 bytes) in /home8/gatewbd4/public_html/includes/theme.inc on line 194
+[30-Dec-2010 15:02:54] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 112 bytes) in /home8/gatewbd4/public_html/includes/theme.inc on line 194
+[30-Dec-2010 15:13:19] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/theme.inc on line 194
+[30-Dec-2010 15:21:01] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/theme.inc on line 194
+[30-Dec-2010 15:23:59] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/theme.inc on line 194
+[31-Dec-2010 03:22:09] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 223283 bytes) in /home8/gatewbd4/public_html/includes/menu.inc on line 966
+[31-Dec-2010 03:25:10] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 282676 bytes) in /home8/gatewbd4/public_html/includes/menu.inc on line 966
+[05-Jan-2011 12:55:07] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 13200 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[05-Jan-2011 12:55:26] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 13200 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[05-Jan-2011 12:55:56] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 13200 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[05-Jan-2011 13:31:00] PHP Fatal error:  Allowed memory size of 100663296 bytes exhausted (tried to allocate 218092 bytes) in /home8/gatewbd4/public_html/includes/menu.inc on line 966
+[23-Mar-2011 12:22:44] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 13824 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[30-Mar-2011 13:00:37] PHP Warning:  POST Content-Length of 394974843 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[13-Apr-2011 15:25:12] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home8/gatewbd4/public_html/sites/all/modules/imagecache_actions/utility.inc' (include_path='.:/usr/lib64/php:/usr/lib/php') in /home8/gatewbd4/public_html/sites/all/modules/imagecache_actions/imagecache_canvasactions.module on line 46
+[13-Jun-2011 15:00:44] PHP Warning:  POST Content-Length of 404457554 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[30-Jan-2012 17:39:40] PHP Warning:  POST Content-Length of 682331119 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[25-Jun-2012 12:49:58] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 12:50:54] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 12:51:38] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:03:36] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:04:46] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:05:48] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:06:07] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:09:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:09:52] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[25-Jun-2012 13:11:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20736 bytes) in /home8/gatewbd4/public_html/sites/all/modules/imageapi/imageapi_gd.module on line 44
+[05-Mar-2013 22:37:21] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;208.115.111.68&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:21] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:21] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:21] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1362548241, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:21] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:21] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;208.115.111.68&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1362548272, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
