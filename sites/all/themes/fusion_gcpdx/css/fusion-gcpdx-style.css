@@ -1798,6 +1798,12 @@ div#calpopup {
   width: 200px;
 }
 
+/* Tabledrag.js removal fixes for vertical tabs */
+div.vertical-tabs ul.vertical-tabs-list li a,
+div.vertical-tabs ul.vertical-tabs-list li {
+  height: auto;
+}
+
 
 /* Skinr
 /-------------------------------------------------------------- */
