@@ -1,5 +1,6 @@
-# Use PHP5 Single php.ini as default
-AddHandler application/x-httpd-php5s .php
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+# Changed PHP handler from application/x-httpd-php5s to application/x-httpd-phpbetas on Mon Jan 11 11:02:59 MST 2016.
 #
 # Apache/PHP/Drupal settings:
 #
@@ -99,6 +100,10 @@ DirectoryIndex index.php
   # uncomment and adapt the following:
   # RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
   # RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+
+# Add the following lines as per HostGator instructions
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
