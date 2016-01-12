@@ -48,3 +48,341 @@ query: UPDATE cache SET data = &#039;&#039;, created = 1362548272, expire = 0, h
 query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
 [05-Mar-2013 22:37:52] PHP Warning:  MySQL server has gone away
 query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[15-Oct-2014 03:50:59] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[25-Oct-2014 17:45:39] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[31-Oct-2014 15:00:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[05-Nov-2014 16:19:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[10-Nov-2014 05:23:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[16-Nov-2014 05:04:46] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[21-Nov-2014 17:45:21] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[29-Nov-2014 07:30:10] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[12-Dec-2014 00:04:19] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[06-Jan-2015 06:33:58] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[12-Jan-2015 22:06:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[15-Jan-2015 08:42:33] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[20-Jan-2015 02:30:58] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[24-Jan-2015 02:54:00] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[27-Jan-2015 14:31:35] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[31-Jan-2015 14:41:20] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[02-Feb-2015 11:41:58] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[03-Feb-2015 19:05:22] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[04-Feb-2015 00:35:35] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 226
+[07-Feb-2015 01:10:44] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[11-Feb-2015 00:02:19] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 109 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[12-Feb-2015 06:52:12] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[15-Feb-2015 09:51:37] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[19-Feb-2015 10:15:42] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 93 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[21-Feb-2015 22:49:31] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[22-Feb-2015 20:18:32] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[24-Feb-2015 05:23:34] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[26-Feb-2015 08:54:52] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 75 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[02-Mar-2015 11:43:32] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[05-Mar-2015 15:54:52] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[09-Mar-2015 20:46:41] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 75 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[10-Mar-2015 11:20:07] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[11-Mar-2015 20:03:37] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 364
+[12-Mar-2015 10:08:16] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 869
+[14-Mar-2015 12:55:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[18-Mar-2015 20:34:44] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 75 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[08-Apr-2015 00:29:38] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 75 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[08-Apr-2015 15:11:27] PHP Warning:  POST Content-Length of 490540051 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:145:\&quot;MySQL server has gone away\nquery: SELECT f.name, f.type, v.value FROM profile_fields f INNER JOIN profile_values v ON f.fid = v.fid WHERE uid = 0\&quot;;s:5:\&quot;%file\&quot;;s:58:\&quot;/home8/gatewbd4/public_html/modules/profile/profile.module\&quot;;s:5:\&quot;%line\&quot;;i:229;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:124:\&quot;MySQL server has gone away\nquery: SELECT info FROM system WHERE type = &amp;#039;theme&amp;#039; AND name = &amp;#039;fusion_gcpdx&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:56:\&quot;/home8/gatewbd4/public_html/modules/system/system.module\&quot;;s:5:\&quot;%line\&quot;;i:1014;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:7:\&quot;warning\&quot;;s:8:\&quot;%message\&quot;;s:97:\&quot;array_map() [&lt;a href=\&#039;function.array-map\&#039;&gt;function.array-map&lt;/a&gt;]: Argument #2 should be an array\&quot;;s:5:\&quot;%file\&quot;;s:56:\&quot;/home8/gatewbd4/public_html/modules/system/system.module\&quot;;s:5:\&quot;%line\&quot;;i:1015;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:7:\&quot;warning\&quot;;s:8:\&quot;%message\&quot;;s:107:\&quot;array_keys() [&lt;a href=\&#039;function.array-keys\&#039;&gt;function.array-keys&lt;/a&gt;]: The first argument should be an array\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/theme.inc\&quot;;s:5:\&quot;%line\&quot;;i:1820;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:7:\&quot;warning\&quot;;s:8:\&quot;%message\&quot;;s:39:\&quot;Invalid argument supplied for foreach()\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/theme.inc\&quot;;s:5:\&quot;%line\&quot;;i:1820;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:171:\&quot;MySQL server has gone away\nquery: SELECT dst FROM url_alias WHERE src = &amp;#039;calendar&amp;#039; AND language IN(&amp;#039;en&amp;#039;, &amp;#039;&amp;#039;) ORDER BY language DESC, pid DESC\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/path.inc\&quot;;s:5:\&quot;%line\&quot;;i:69;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:120:\&quot;MySQL server has gone away\nquery: SELECT * FROM menu_router WHERE tab_root = &amp;#039;calendar&amp;#039; ORDER BY weight, title\&quot;;s:5:\&quot;%file\&quot;;s:70:\&quot;/home8/gatewbd4/public_html/sites/all/modules/ctools/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:292;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:185:\&quot;MySQL server has gone away\nquery: SELECT dst FROM url_alias WHERE src = &amp;#039;admin/settings/actions&amp;#039; AND language IN(&amp;#039;en&amp;#039;, &amp;#039;&amp;#039;) ORDER BY language DESC, pid DESC\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/path.inc\&quot;;s:5:\&quot;%line\&quot;;i:69;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:163:\&quot;MySQL server has gone away\nquery: SELECT data, created, headers, expire, serialized FROM cache_menu WHERE cid = &amp;#039;links:primary-links:page-cid:calendar:1&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:26;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:171:\&quot;MySQL server has gone away\nquery: SELECT p1, p2, p3, p4, p5, p6, p7, p8 FROM menu_links WHERE menu_name = &amp;#039;primary-links&amp;#039; AND link_path IN (&amp;#039;calendar&amp;#039;)\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:898;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:168:\&quot;MySQL server has gone away\nquery: SELECT p1, p2, p3, p4, p5, p6, p7, p8 FROM menu_links WHERE menu_name = &amp;#039;primary-links&amp;#039; AND link_path = &amp;#039;calendar&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:903;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:179:\&quot;MySQL server has gone away\nquery: SELECT mlid FROM menu_links WHERE menu_name = &amp;#039;primary-links&amp;#039; AND expanded = 1 AND has_children = 1 AND plid IN (0) AND mlid NOT IN (0)\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:917;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:483:\&quot;MySQL server has gone away\nquery: \n          SELECT m.load_functions, m.to_arg_functions, m.access_callback, m.access_arguments, m.page_callback, m.page_arguments, m.title, m.title_callback, m.title_arguments, m.type, m.description, ml.*\n          FROM menu_links ml LEFT JOIN menu_router m ON m.path = ml.router_path\n          WHERE ml.menu_name = &amp;#039;primary-links&amp;#039; AND ml.plid IN (0)\n          ORDER BY p1 ASC, p2 ASC, p3 ASC, p4 ASC, p5 ASC, p6 ASC, p7 ASC, p8 ASC, p9 ASC\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:941;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:186:\&quot;MySQL server has gone away\nquery: SELECT data, created, headers, expire, serialized FROM cache_menu WHERE cid = &amp;#039;links:primary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:26;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:307:\&quot;MySQL server has gone away\nquery: UPDATE cache_menu SET data = &amp;#039;a:2:{s:4:\\&amp;quot;tree\\&amp;quot;;a:0:{}s:10:\\&amp;quot;node_links\\&amp;quot;;a:0:{}}&amp;#039;, created = 1428540238, expire = 0, headers = &amp;#039;&amp;#039;, serialized = 1 WHERE cid = &amp;#039;links:primary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:109;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:275:\&quot;MySQL server has gone away\nquery: UPDATE cache_menu SET data = &amp;#039;links:primary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;, created = 1428540238, expire = 0, headers = &amp;#039;&amp;#039;, serialized = 0 WHERE cid = &amp;#039;links:primary-links:page-cid:calendar:1&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:109;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:165:\&quot;MySQL server has gone away\nquery: SELECT data, created, headers, expire, serialized FROM cache_menu WHERE cid = &amp;#039;links:secondary-links:page-cid:calendar:1&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:26;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:173:\&quot;MySQL server has gone away\nquery: SELECT p1, p2, p3, p4, p5, p6, p7, p8 FROM menu_links WHERE menu_name = &amp;#039;secondary-links&amp;#039; AND link_path IN (&amp;#039;calendar&amp;#039;)\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:898;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:170:\&quot;MySQL server has gone away\nquery: SELECT p1, p2, p3, p4, p5, p6, p7, p8 FROM menu_links WHERE menu_name = &amp;#039;secondary-links&amp;#039; AND link_path = &amp;#039;calendar&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:903;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:485:\&quot;MySQL server has gone away\nquery: \n          SELECT m.load_functions, m.to_arg_functions, m.access_callback, m.access_arguments, m.page_callback, m.page_arguments, m.title, m.title_callback, m.title_arguments, m.type, m.description, ml.*\n          FROM menu_links ml LEFT JOIN menu_router m ON m.path = ml.router_path\n          WHERE ml.menu_name = &amp;#039;secondary-links&amp;#039; AND ml.plid IN (0)\n          ORDER BY p1 ASC, p2 ASC, p3 ASC, p4 ASC, p5 ASC, p6 ASC, p7 ASC, p8 ASC, p9 ASC\&quot;;s:5:\&quot;%file\&quot;;s:45:\&quot;/home8/gatewbd4/public_html/includes/menu.inc\&quot;;s:5:\&quot;%line\&quot;;i:941;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.c in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:188:\&quot;MySQL server has gone away\nquery: SELECT data, created, headers, expire, serialized FROM cache_menu WHERE cid = &amp;#039;links:secondary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:26;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:309:\&quot;MySQL server has gone away\nquery: UPDATE cache_menu SET data = &amp;#039;a:2:{s:4:\\&amp;quot;tree\\&amp;quot;;a:0:{}s:10:\\&amp;quot;node_links\\&amp;quot;;a:0:{}}&amp;#039;, created = 1428540238, expire = 0, headers = &amp;#039;&amp;#039;, serialized = 1 WHERE cid = &amp;#039;links:secondary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:109;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:279:\&quot;MySQL server has gone away\nquery: UPDATE cache_menu SET data = &amp;#039;links:secondary-links:tree-data:5d6d3aaaaef5fba302ce62698fa37bbe&amp;#039;, created = 1428540238, expire = 0, headers = &amp;#039;&amp;#039;, serialized = 0 WHERE cid = &amp;#039;links:secondary-links:page-cid:calendar:1&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:109;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:101:\&quot;MySQL server has gone away\nquery: SELECT * FROM fontyourface_font WHERE enabled = 1 ORDER BY name ASC\&quot;;s:5:\&quot;%file\&quot;;s:78:\&quot;/home8/gatewbd4/public_html/sites/all/modules/fontyourface/fontyourface.module\&quot;;s:5:\&quot;%line\&quot;;i:773;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:128:\&quot;MySQL server has gone away\nquery: SELECT filename FROM system WHERE name = &amp;#039;fusion_gcpdx&amp;#039; AND type = &amp;#039;theme&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:50:\&quot;/home8/gatewbd4/public_html/includes/bootstrap.inc\&quot;;s:5:\&quot;%line\&quot;;i:518;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:127:\&quot;MySQL server has gone away\nquery: SELECT filename FROM system WHERE name = &amp;#039;fusion_core&amp;#039; AND type = &amp;#039;theme&amp;#039;\&quot;;s:5:\&quot;%file\&quot;;s:50:\&quot;/home8/gatewbd4/public_html/includes/bootstrap.inc\&quot;;s:5:\&quot;%line\&quot;;i:518;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:7:\&quot;warning\&quot;;s:8:\&quot;%message\&quot;;s:126:\&quot;htmlspecialchars() [&lt;a href=\&#039;function.htmlspecialchars\&#039;&gt;function.htmlspecialchars&lt;/a&gt;]: Invalid multibyte sequence in argument\&quot;;s:5:\&quot;%file\&quot;;s:50:\&quot;/home8/gatewbd4/public_html/includes/bootstrap.inc\&quot;;s:5:\&quot;%line\&quot;;i:857;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:0:\&quot;\&quot;;s:5:\&quot;%file\&quot;;s:46:\&quot;/home8/gatewbd4/public_html/includes/cache.inc\&quot;;s:5:\&quot;%line\&quot;;i:109;}&#039;, 3, &#039;&#039;, &#039;https://www.gatewaychurchpdx.com/calendar/2015-W13&#039;, &#039;&#039;, &#039;157.55.39.68&#039;, 1428540238) in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[08-Apr-2015 17:43:58] PHP Warning:  MySQL server has gone away
+query: INSERT INTO watchdog
+    (uid, type, message, variables, severity, link, location, referer, hostname, timestamp)
+    VALUES
+    (0, &#039;php&#039;, &#039;%message in %file on line %line.&#039;, &#039;a:4:{s:6:\&quot;%error\&quot;;s:12:\&quot;user warning\&quot;;s:8:\&quot;%message\&quot;;s:6852:\&quot;MySQL server has gone away\nquery: UPDATE sessions SET uid = 0, cache = 0, hostname = &amp;#039;157.55.39.68&amp;#039;, session = &amp;#039;messages|a:1:{s:5:\\&amp;quot;error\\&amp;quot;;a:20:{i:0;s:239:\\&amp;quot;user warning: MySQL server has gone away\\nquery: SELECT data, created, headers, expire, serialized FROM cache_menu WHERE cid = &amp;amp;#039;links:primary-links:page-cid:calendar:1&amp;amp;#039; in /home8/gatewbd4/public_html/includes/cache.inc on line 26.\\&amp;quot;;i:1;s:247:\\&amp;quot;user warning: MySQL server has gone away\\nquery: SELECT p1, p2, p3, p4, p5, p6, p7, p8 FROM menu_links WHERE menu_name = &amp;amp;#039;primary-links&amp;amp;#039; AND link_path  in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[16-Apr-2015 07:04:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[24-Apr-2015 02:26:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2694
+[24-Apr-2015 05:37:22] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2694
+[28-Apr-2015 22:07:34] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[01-May-2015 17:04:21] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[03-May-2015 21:39:14] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[04-May-2015 04:53:59] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2693
+[14-May-2015 14:32:07] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[15-May-2015 17:04:56] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[15-May-2015 23:41:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[16-May-2015 20:19:09] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 83 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2656
+[20-May-2015 12:03:53] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[24-May-2015 20:12:08] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;207.46.13.43&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;207.46.13.43&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1432519928, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1432519928, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[24-May-2015 20:12:08] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[25-May-2015 00:02:48] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[29-May-2015 07:36:12] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 210
+[05-Jun-2015 23:49:04] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[13-Jun-2015 21:09:33] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[25-Jun-2015 04:55:41] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[21-Jul-2015 15:35:39] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1485
+[01-Aug-2015 01:31:39] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[01-Aug-2015 07:23:28] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[01-Aug-2015 22:08:10] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[05-Aug-2015 06:32:11] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[05-Aug-2015 15:59:24] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT data, created, headers, expire, serialized FROM cache_page WHERE cid = &#039;https://www.gatewaychurchpdx.com/calendar/2015-03-12&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 15:59:25] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 15:59:25] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:29] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;174.25.101.180&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:29] PHP Warning:  Lost connection to MySQL server during query
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;174.25.101.180&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT u.*, s.* FROM users u INNER JOIN sessions s ON u.uid = s.uid WHERE s.sid = &#039;ngoi5rpb1q87s6atsoan1tj7c1&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT * FROM variable in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1438812030, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: UPDATE cache SET data = &#039;&#039;, created = 1438812030, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[05-Aug-2015 16:00:30] PHP Warning:  MySQL server has gone away
+query: SELECT COUNT(pid) FROM url_alias in /home8/gatewbd4/public_html/includes/database.mysqli.inc on line 135
+[09-Aug-2015 13:30:19] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 28 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1499
+[09-Aug-2015 22:38:01] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[12-Aug-2015 14:38:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[12-Aug-2015 18:38:35] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[13-Aug-2015 19:57:06] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[14-Aug-2015 23:12:39] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 84 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[18-Aug-2015 09:45:31] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 109 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[18-Aug-2015 22:20:20] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[19-Aug-2015 07:25:24] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[19-Aug-2015 14:31:25] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[19-Aug-2015 22:40:30] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[20-Aug-2015 04:31:48] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[20-Aug-2015 06:13:18] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[20-Aug-2015 22:42:36] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[22-Aug-2015 01:49:39] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[22-Aug-2015 08:29:59] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[25-Aug-2015 00:59:05] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[26-Aug-2015 14:31:19] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[29-Aug-2015 00:27:05] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[29-Aug-2015 01:07:53] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 79 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[04-Sep-2015 03:43:06] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[05-Sep-2015 08:05:46] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[07-Sep-2015 04:01:32] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[11-Sep-2015 13:24:13] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[11-Sep-2015 22:31:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[12-Sep-2015 02:51:36] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[13-Sep-2015 01:18:20] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[13-Sep-2015 04:30:16] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 46
+[17-Sep-2015 00:41:44] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[18-Sep-2015 05:03:13] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[18-Sep-2015 16:39:20] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[19-Sep-2015 20:59:30] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[25-Sep-2015 19:27:47] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[28-Sep-2015 15:26:37] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1437
+[30-Sep-2015 14:10:20] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 30 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 903
+[01-Oct-2015 00:05:32] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 1 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 371
+[02-Oct-2015 19:21:44] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 110
+[04-Oct-2015 18:51:47] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 371
+[05-Oct-2015 12:17:24] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 110
+[08-Oct-2015 04:42:03] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 364
+[09-Oct-2015 11:27:46] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 2568
+[10-Oct-2015 20:14:50] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1435
+[11-Oct-2015 21:19:16] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1435
+[12-Oct-2015 06:38:42] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 869
+[12-Oct-2015 06:38:50] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 369
+[16-Oct-2015 20:45:54] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1435
+[18-Oct-2015 14:03:13] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1435
+[19-Oct-2015 05:57:38] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 76 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 109
+[19-Oct-2015 07:36:40] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[20-Oct-2015 13:35:04] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[23-Oct-2015 17:23:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 2568
+[28-Oct-2015 02:23:06] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91 bytes) in /home8/gatewbd4/public_html/modules/node/node.module on line 448
+[31-Oct-2015 05:06:30] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1435
+[31-Oct-2015 21:25:08] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[07-Nov-2015 19:07:34] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 890
+[09-Nov-2015 11:35:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 83 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2656
+[22-Nov-2015 21:33:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 76 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 109
+[23-Nov-2015 06:31:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 226
+[25-Nov-2015 10:43:25] PHP Warning:  POST Content-Length of 551980055 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[25-Nov-2015 10:45:42] PHP Warning:  POST Content-Length of 551980071 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[26-Nov-2015 19:33:02] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 226
+[28-Nov-2015 01:02:32] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 110 bytes) in /home8/gatewbd4/public_html/includes/common.inc on line 1733
+[30-Nov-2015 14:19:17] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[03-Dec-2015 19:39:35] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[06-Dec-2015 07:42:04] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[09-Dec-2015 11:35:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2693
+[17-Dec-2015 07:49:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[19-Dec-2015 20:53:59] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 49
+[20-Dec-2015 11:56:06] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 80 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 47
+[21-Dec-2015 01:46:26] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 81 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 2693
+[26-Dec-2015 17:18:51] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[29-Dec-2015 03:38:57] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 388
+[30-Dec-2015 11:36:51] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 76 bytes) in /home8/gatewbd4/public_html/includes/path.inc on line 109
+[31-Dec-2015 14:47:47] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 226
+[02-Jan-2016 00:56:51] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 226
+[06-Jan-2016 08:22:29] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 71 bytes) in /home8/gatewbd4/public_html/sites/all/modules/date/date_api.module on line 372
+[09-Jan-2016 05:18:49] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 28 bytes) in /home8/gatewbd4/public_html/sites/all/modules/calendar/calendar.module on line 903
