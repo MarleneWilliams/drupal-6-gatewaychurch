@@ -1827,4 +1827,9 @@ div.vertical-tabs ul.vertical-tabs-list li {
 .not-logged-in #content-messages {
   display: none;
 }
-
+.front #content-region {
+  background: #fff9ea;
+  border: 1px solid #fff;
+  margin-top: 24px;
+  padding: 25px;
+}
