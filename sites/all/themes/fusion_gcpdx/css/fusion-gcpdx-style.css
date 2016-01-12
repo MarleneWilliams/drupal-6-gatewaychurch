@@ -1830,6 +1830,7 @@ div.vertical-tabs ul.vertical-tabs-list li {
 .front #content-region {
   background: #fff9ea;
   border: 1px solid #fff;
-  margin-top: 24px;
+  box-sizing: border-box;
+  margin-top: 70px;
   padding: 25px;
 }
